@@ -74,7 +74,11 @@ get_header(); ?>
 
 											<?php //the_excerpt(); ?>
 
-											<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Read More', 'photobook' ); ?></a>
+											<a 
+												href="<?php the_permalink(); ?>" 
+												title="<?php the_title_attribute(); ?>"><?php _e( 'Ver más', 'photobook' ); ?>
+												
+											</a>
 										</article>
 									</div><!-- .dt-image-slider-desc -->
 								</div><!-- .dt-image-slider-holder -->
@@ -165,9 +169,16 @@ get_header(); ?>
 					</figure>
 
 					<div class="dt-front-post-meta transition5">
-						<h2 class="transition5"><?php the_title(); ?></h2>
+						<h2 class="transition5"><?php //the_title(); ?></h2>
 
-						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'View Details', 'photobook' ); ?></a>
+						<a 
+							href="<?php the_permalink(); ?>" 
+							title="
+							<?php the_title_attribute(); ?>">
+							<?php //_e( 'View Details', 'photobook' ); ?>
+							<?php the_title(); ?>
+								
+						</a>
 					</div><!-- .dt-front-post-meta -->
 				</div>
 
