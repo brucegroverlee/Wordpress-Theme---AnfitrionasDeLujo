@@ -43,7 +43,7 @@
 
 					<div class="col-lg-6 col-md-6">
 						<div class="dt-footer-designer">
-							<?php _e( 'Designed by', 'photobook' ); ?> <a href="<?php echo esc_url( 'http://daisythemes.com/'); ?>" target="_blank" rel="designer"><?php _e( 'DaisyThemes', 'photobook' )?></a>
+							<?php _e( 'Diseñado por', 'photobook' ); ?> <a href="<?php echo esc_url( 'http://brucegroverlee.com/'); ?>" target="_blank" rel="designer"><?php _e( 'brucegroverlee.com', 'photobook' )?></a>
 
 						</div><!-- .dt-footer-designer -->
 					</div><!-- .col-lg-6 -->
