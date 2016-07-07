@@ -80,7 +80,7 @@ get_header(); ?>
 			</div><!-- .col-lg-8 -->
 
 			<div class="col-lg-4 col-md-4">
-				<?php get_sidebar(); ?>
+				<?//php get_sidebar(); ?>
 			</div><!-- .col-lg-4 -->
 		</div><!-- .row -->
 	</div><!-- .container -->

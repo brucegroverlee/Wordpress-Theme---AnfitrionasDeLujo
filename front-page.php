@@ -72,7 +72,7 @@ get_header(); ?>
 										<article>
 											<h1><?php the_title(); ?></h1>
 
-											<?php the_excerpt(); ?>
+											<?php //the_excerpt(); ?>
 
 											<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Read More', 'photobook' ); ?></a>
 										</article>
