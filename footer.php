@@ -36,7 +36,11 @@
 					<div class="col-lg-6 col-md-6">
 						<div class="dt-copyright">
 
-							<?php _e( 'Copyright &copy;', 'photobook' ); ?> <?php echo date_i18n( 'Y' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a><?php _e( '. All rights reserved.', 'photobook' )?>
+							<?php //_e( 'Copyright &copy;', 'photobook' ); ?> 
+							<?php //echo date_i18n( 'Y' ); ?> 
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>">
+							<?php bloginfo( 'name' ); ?></a>
+							<?php //_e( '. All rights reserved.', 'photobook' )?>
 
 						</div><!-- .dt-copyright -->
 					</div><!-- .col-lg-6 -->
