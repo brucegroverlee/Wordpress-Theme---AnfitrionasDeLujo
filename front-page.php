@@ -181,10 +181,10 @@ get_header(); ?>
 
 		<div id="dt-append-ajax-data"></div>
 
-		<div class="dt-front-post-load-more" id="dt-ajax-btn">
-			<span class="transition5"><?php _e( 'Load More', 'photobook' ); ?></span>
-			<img src="<?php echo esc_url( admin_url( '/images/wpspin_light.gif' ) );  ?>" class="waiting" id="dt-ajax-loading-icon" style="display: none;">
-		</div><!-- .dt-front-post-load-more -->
+		<!-- <div class="dt-front-post-load-more" id="dt-ajax-btn">
+			<span class="transition5"><?php //_e( 'Load More', 'photobook' ); ?></span>
+			<img src="<?php //echo esc_url( admin_url( '/images/wpspin_light.gif' ) );  ?>" class="waiting" id="dt-ajax-loading-icon" style="display: none;">
+		</div>.dt-front-post-load-more -->
 
 		<div class="clearfix"></div>
 	</section><!-- .dt-front-posts-wrap -->
