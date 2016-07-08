@@ -32,9 +32,9 @@
 					?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php
-					//if ( $description || is_customize_preview() ) : ?>
-						<p class="site-description"><?php// echo $description; ?></p>
-					<?php// endif; ?>
+					if ( $description || is_customize_preview() ) : ?>
+						<p class="site-description"><?php echo $description; ?></p>
+					<?php endif; ?>
 
 				</div><!-- .dt-logo -->
 			</div><!-- .col-lg-12 ---->
