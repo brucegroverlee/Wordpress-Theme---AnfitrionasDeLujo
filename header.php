@@ -44,7 +44,7 @@
 </header><!-- .dt-header -->
 
 <nav class="dt-main-menu transition5">
-	<div class="dt-menu-wrap<?php if ( ! is_front_page() ) { echo ' inner-page-menu'; } ?>">
+	<div class="dt-menu-wrap<?php if ( ! is_front_page() ) { /*echo ' inner-page-menu';*/ } ?>">
 		<span class="dt-menu-trigger transition5"></span>
 	</div><!-- .dt-menu-wrap -->
 
