@@ -47,7 +47,7 @@ get_header(); ?>
 
 										</figure>
 
-										<article>
+										<article class="article-category">
 											<header class="entry-header">
 												<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 											</header><!-- .entry-header -->
@@ -58,7 +58,7 @@ get_header(); ?>
 											</div><!-- .dt-archive-post-content -->
 
 											<div class="entry-footer">
-												<a class="transition35" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Read more', 'photobook' ); ?></a>
+												<a class="transition35" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Ver más', 'photobook' ); ?></a>
 											</div><!-- .dt-archive-post-readmore -->
 										</article>
 									</div><!-- .dt-archive-post -->
