@@ -687,13 +687,19 @@ textarea {
 }
 
 .inner-page-header {
-	background: #fff;
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<agregado<<<<<<<*/
+	background-image: url(http://localhost/anfitrionasdelujo/wp-content/uploads/2016/07/x-art_angelica_introducing_angelica-11-sml.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover !important;
+    background-position-y: 40%;
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>agregado>>>>>>>*/
 }
 
 .inner-page-header .dt-logo p,
 .inner-page-header .dt-logo h1,
-.inner-page-header .dt-logo h1 a {
-	color: rgba(39,48,57,.85);
+.inner-page-header .dt-logo h1 a{
+	/*color: rgba(39,48,57,.85);*/
+	color: #fff !important;
 	border-color: rgba(39,48,57,.5);
 	font-weight: 500;
 }
@@ -704,7 +710,7 @@ textarea {
 }
 
 .dt-logo h1 a:hover {
-	color: #17bebb;
+	color: #17bebb !important;
 }
 
 .dt-logo p {
