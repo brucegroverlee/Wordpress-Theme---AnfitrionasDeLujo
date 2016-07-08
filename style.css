@@ -731,7 +731,8 @@ textarea {
 	z-index: 9999;
 	width: 320px;
 	height: 100vh;
-	background: rgba(255,255,255,.98);
+	/*background: rgba(255,255,255,.98);*/
+	background: rgb(25, 25, 25);
 	border-left: 1px solid rgba(39,48,57,.05);
 }
 
@@ -1974,3 +1975,6 @@ body {
 h2 a {
 	color: #bdbdbd !important;
 }
+ .dt-main-menu li a {
+ 	color: inherit !important;
+ }
