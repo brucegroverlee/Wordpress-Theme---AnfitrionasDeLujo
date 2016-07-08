@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-md-8">
+			<div class="col-lg-12 col-md-12">
 				<div id="primary" class="content-area dt-archive-wrap">
 					<main id="main" class="site-main" role="main">
 
@@ -79,6 +79,8 @@ get_header(); ?>
 				</div><!-- #primary -->
 			</div><!-- .col-lg-8 -->
 
+			<!--
+			Acá se borro la etiquieta de la barra lateral de categorias
 			<div class="col-lg-4 col-md-4">
 				<?//php get_sidebar(); ?>
 			</div><!-- .col-lg-4 -->
