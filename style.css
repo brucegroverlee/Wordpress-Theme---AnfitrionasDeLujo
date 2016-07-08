@@ -1941,3 +1941,10 @@ textarea {
 		padding: 6px 18px 4px;
 	}
 }
+
+/***
+* Parche
+***/
+body {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
